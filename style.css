@@ -1,0 +1,43 @@
+@font-face {
+    font-family: OpenSans;
+    src: url("fonts/OpenSans%20Light.ttf"),
+    url("fonts/OpenSans%20Light.eot"),
+    url("fonts/OpenSans%20Light.eot?");
+}
+body {
+    margin: 0;
+    font: 14px OpenSans;
+    color: #282828;
+    line-height: 1;
+}
+a {
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+input, select, textarea, button {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: OpenSans;
+}
+textarea {
+    resize: none;
+}
+button {
+    border: 0;
+    cursor: pointer;
+    color: #ffffff;
+}
+#content {
+    width: 612px;
+    height: 368px;
+    float: left;
+}
+.custom {
+    border: 1px solid #d5d6d7;
+    background-color: #f5f8fa;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 2px 0 #dbe3e9;
+    }
